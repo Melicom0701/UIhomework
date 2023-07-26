@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="title">Account details</div>
+      <div class="avaContainer">
+        <div class="avatar">
+          <img
+            class="image"
+            src="./361956861_1015268832819393_2566685752340256795_n.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <div class="upload-btn">
+            <button>Upload New Photo</button>
+          </div>
+          <div class="text">Allowed JPG, GIF or PNG. Max size of 800k</div>
+        </div>
+      </div>
+      <div class="mailContainer">
+        <div class="mail-section">
+          <div class="icon">
+            <!-- Replace 'mail-icon.png' with the path to your mail icon image -->
+            <img src="mail-icon.png" alt="Mail Icon" />
+          </div>
+          <div class="address">
+            <p>Email: example@example.com</p>
+          </div>
+        </div>
+        <div class="mail-section">
+          <div class="icon">
+            <!-- Replace 'mail-icon.png' with the path to your mail icon image -->
+            <img src="mail-icon.png" alt="Mail Icon" />
+          </div>
+          <div class="address">
+            <p>Email: example@example.com</p>
+          </div>
+        </div>
+        <div class="mail-section">
+          <div class="icon">
+            <!-- Replace 'mail-icon.png' with the path to your mail icon image -->
+            <img src="mail-icon.png" alt="Mail Icon" />
+          </div>
+          <div class="address">
+            <p>Email: example@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="specContainer">
+        <!--select box -->
+        <div class="option-bar">
+            <div class="option">
+              <span>IT</span>
+              <input type="checkbox" name="option" value="IT">
+            </div>
+            <div class="option">
+                <span>DS</span>
+              <input type="checkbox" name="option" value="DS">
+              
+            </div>
+            <div class="option">
+                <span>MO</span>
+              <input type="checkbox" name="option" value="MO">
+        
+            </div>
+          </div>
+      </div>
+      <div class="genContainer">
+        <div class="option-bar">
+            <div class="option">
+              <span>Male</span>
+              <input type="radio" name="option" value="IT">
+            </div>
+            <div class="option">
+                <span>Female</span>
+              <input type="radio" name="option" value="DS">
+              
+            </div>
+            <div class="option">
+                <span>Minh Dong</span>
+              <input type="radio" name="option" value="MO">
+        
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="vue.js"></script>
+  </body>
+</html>
