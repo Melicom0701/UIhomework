@@ -9,7 +9,7 @@ body {
 }
 #app {
   width: 1150px;
-  height: 550px;
+  height: 600px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -45,6 +45,21 @@ body {
   border: none; /* Remove the default button border */
   border-radius: 5px; /* Add rounded corners to the button */
   cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+.reset-btn {
+  background-color: #ccc; /* Set the background color to green (#0EC75C) */
+  color: white; /* Set the text color to white */
+  margin: 10px;
+  text-align: center;
+  width: 175px;
+  padding: 5px 10px; /* Add some padding to the button for better appearance */
+  font-size: 16px; /* Set the font size */
+  border: none; /* Remove the default button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+}
+.reset-btn:hover {
+  background-color: #e6e8ee; /* Change the background color on hover (#0BB94D) */
 }
 .upload-btn:hover {
   background-color: #0bb94d; /* Change the background color on hover (#0BB94D) */
@@ -98,4 +113,8 @@ body {
   width: 100%;
   border: 2px solid #ccc;
   border-radius: 10px;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
 }
